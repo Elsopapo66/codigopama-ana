@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Ejemplo1.PModel
+namespace SistemaAlmacen.PModel
 {
     public class Menu
     {
@@ -14,8 +14,8 @@ namespace Ejemplo1.PModel
 
         public override string ToString()
         {
-            string linea = "+-------------------------+";
-            string titulo = "|      Menu de Libros     |";
+            string linea = "+-----------------------------+";
+            string titulo = "|   Sistema de Inventario    |";
             string salto = "\n";
 
             string res = linea + salto;

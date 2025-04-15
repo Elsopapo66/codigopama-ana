@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|c:\\users\\jesus\\downloads\\net-proyecto-eva-1-main\\ejemplo1\\model\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|solutionrelative:ejemplo1\\model\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|c:\\users\\jesus\\downloads\\net-proyecto-eva-1-main\\ejemplo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|solutionrelative:ejemplo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|c:\\users\\jesus\\downloads\\net-proyecto-eva-1-main\\ejemplo1\\model\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|solutionrelative:ejemplo1\\model\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|c:\\users\\jesus\\downloads\\net-proyecto-eva-1-main\\ejemplo1\\pmodel\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|solutionrelative:ejemplo1\\pmodel\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|c:\\users\\jesus\\downloads\\net-proyecto-eva-1-main\\ejemplo1\\pmodel\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|solutionrelative:ejemplo1\\pmodel\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|c:\\users\\jesus\\downloads\\net-proyecto-eva-1-main\\ejemplo1\\pmodel\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD9DDE3-1C8C-4CFB-B524-90A7AEA9BC82}|Ejemplo1\\Ejemplo1.csproj|solutionrelative:ejemplo1\\pmodel\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,50 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\PModel\\Menu.cs",
               "RelativeDocumentMoniker": "Ejemplo1\\PModel\\Menu.cs",
               "ToolTip": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\PModel\\Menu.cs",
               "RelativeToolTip": "Ejemplo1\\PModel\\Menu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T03:30:55.775Z"
+              "WhenOpened": "2025-04-15T03:30:55.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\PModel\\Item.cs",
               "RelativeDocumentMoniker": "Ejemplo1\\PModel\\Item.cs",
               "ToolTip": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\PModel\\Item.cs",
               "RelativeToolTip": "Ejemplo1\\PModel\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T03:30:40.87Z"
+              "WhenOpened": "2025-04-15T03:30:40.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\Model\\Libro.cs",
-              "RelativeDocumentMoniker": "Ejemplo1\\Model\\Libro.cs",
-              "ToolTip": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\Model\\Libro.cs",
-              "RelativeToolTip": "Ejemplo1\\Model\\Libro.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA0wAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\Model\\Producto.cs",
+              "RelativeDocumentMoniker": "Ejemplo1\\Model\\Producto.cs",
+              "ToolTip": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\Model\\Producto.cs",
+              "RelativeToolTip": "Ejemplo1\\Model\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T03:29:46.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\Program.cs",
               "RelativeDocumentMoniker": "Ejemplo1\\Program.cs",
               "ToolTip": "C:\\Users\\jesus\\Downloads\\net-proyecto-eva-1-main\\Ejemplo1\\Program.cs",
               "RelativeToolTip": "Ejemplo1\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAcwJIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T19:03:35.968Z",
               "EditorCaption": ""

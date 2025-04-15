@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using Ejemplo1.Model;
-using Ejemplo1.PModel;
+using SistemaAlmacen.Model;
+using SistemaAlmacen.PModel;
 
 class Program
 {
     // Declaraciones Globales
     static Menu menu;
-    static List<Libro> listaDeLibros;
+    static List<Producto> listaDeProductos;
 
     static void Main(string[] args)
     {
@@ -41,55 +42,35 @@ class Program
             switch (opcion)
             {
                 case 0:
-                    Console.WriteLine("Saliendo del programa...");
+                    Console.WriteLine("Saliendo del sistema...");
                     run = false;
                     break;
-                case 1:
-                    Console.WriteLine("Agregar Libro");
-                    Libro libro = crearLibro();
-                    libro.Id = GenerarNuevoId();
-                    listaDeLibros.Add(libro);
-                    Console.WriteLine("Libro agregado con éxito.");
+
+                case 1: // ✅ Agregar Producto
+                    Console.WriteLine("Agregar Producto");
+                    Producto nuevoProducto = CrearProducto();
+                    nuevoProducto.Id = GenerarNuevoId();
+                    listaDeProductos.Add(nuevoProducto);
+                    Console.WriteLine("Producto agregado con éxito.");
                     break;
-                case 2:
-                    Console.WriteLine("Eliminar Libro");
-                    listarLibros();
-                    Console.Write("Ingrese el ID del libro que desea eliminar: ");
-                    if (int.TryParse(Console.ReadLine(), out int idEliminar))
+
+                case 2: // Modificar Producto
+                    Console.WriteLine("Modificar Producto");
+                    ListarProductos();
+                    Console.Write("Ingrese el ID del producto a modificar: ");
+                    if (int.TryParse(Console.ReadLine(), out int idMod))
                     {
-                        Libro libroEliminar = listaDeLibros.Find(l => l.Id == idEliminar);
-                        if (libroEliminar != null)
-                        {
-                            listaDeLibros.Remove(libroEliminar);
-                            Console.WriteLine("Libro eliminado correctamente.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("No se encontró un libro con ese ID.");
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("ID inválido.");
-                    }
-                    break;
-                case 3:
-                    Console.WriteLine("Modificar Libro");
-                    listarLibros();
-                    Console.Write("Ingrese el ID del libro a modificar: ");
-                    if (int.TryParse(Console.ReadLine(), out int idModificar))
-                    {
-                        int idx = listaDeLibros.FindIndex(l => l.Id == idModificar);
+                        int idx = listaDeProductos.FindIndex(p => p.Id == idMod);
                         if (idx != -1)
                         {
-                            Libro nuevoLibro = crearLibro();
-                            nuevoLibro.Id = idModificar; // Mantener el mismo ID
-                            listaDeLibros[idx] = nuevoLibro;
-                            Console.WriteLine("Libro modificado exitosamente.");
+                            Producto productoModificado = CrearProducto();
+                            productoModificado.Id = idMod; // Mantener ID
+                            listaDeProductos[idx] = productoModificado;
+                            Console.WriteLine("Producto modificado con éxito.");
                         }
                         else
                         {
-                            Console.WriteLine("Libro no encontrado.");
+                            Console.WriteLine("Producto no encontrado.");
                         }
                     }
                     else
@@ -97,28 +78,93 @@ class Program
                         Console.WriteLine("ID inválido.");
                     }
                     break;
-                case 4:
-                    listarLibros();
+
+                case 3: // Eliminar Producto
+                    Console.WriteLine("Eliminar Producto");
+                    ListarProductos();
+                    Console.Write("Ingrese el ID del producto a eliminar: ");
+                    if (int.TryParse(Console.ReadLine(), out int idEliminar))
+                    {
+                        Producto prodEliminar = listaDeProductos.Find(p => p.Id == idEliminar);
+                        if (prodEliminar != null)
+                        {
+                            listaDeProductos.Remove(prodEliminar);
+                            Console.WriteLine("Producto eliminado con éxito.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No se encontró un producto con ese ID.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("ID inválido.");
+                    }
                     break;
+
+                case 4: // Buscar Producto por ID
+                    Console.WriteLine("Buscar Producto por ID");
+                    Console.Write("Ingrese el ID del producto: ");
+                    if (int.TryParse(Console.ReadLine(), out int idBuscar))
+                    {
+                        Producto encontrado = listaDeProductos.Find(p => p.Id == idBuscar);
+                        if (encontrado != null)
+                        {
+                            Console.WriteLine("Producto encontrado:");
+                            Console.WriteLine(encontrado);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Producto no encontrado.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("ID inválido.");
+                    }
+                    break;
+
+                case 5: // Listar Productos
+                    ListarProductos();
+                    break;
+
                 default:
                     Console.WriteLine("Opción incorrecta.");
                     break;
             }
+
         }
     }
 
-    static void listarLibros()
+    static int GenerarNuevoId()
     {
-        Console.WriteLine("------- Lista de Libros -------");
-        Console.WriteLine("| ID | Título | Autor | Género | ISBN |");
+        if (listaDeProductos.Count == 0)
+            return 1;
 
-        foreach (Libro libro in listaDeLibros)
+        // Busca el ID máximo y le suma 1
+        return listaDeProductos.Max(p => p.Id) + 1;
+    }
+
+
+
+    static void ListarProductos()
+    {
+        Console.WriteLine("------- Lista de Productos -------");
+
+        if (listaDeProductos.Count == 0)
         {
-            Console.WriteLine(libro);
+            Console.WriteLine("El inventario está vacío.");
+            return;
         }
 
-        Console.WriteLine("--------------------------------");
+        Console.WriteLine("| ID | Nombre | Precio | Stock |");
+        foreach (Producto p in listaDeProductos)
+        {
+            Console.WriteLine(p);
+        }
+        Console.WriteLine("----------------------------------");
     }
+
 
     static int ObtenerPosicion(List<Item> lista, int opcion)
     {
@@ -130,45 +176,43 @@ class Program
         return -1;
     }
 
-    static Libro crearLibro()
+    static Producto CrearProducto()
     {
-        Libro libro = new Libro();
+        Producto producto = new Producto();
 
-        Console.Write("Ingrese el título del libro: ");
-        libro.Titulo = Console.ReadLine();
+        Console.Write("Ingrese el nombre del producto: ");
+        producto.Nombre = Console.ReadLine();
 
-        Console.Write("Ingrese el autor del libro: ");
-        libro.Autor = Console.ReadLine();
+        Console.Write("Ingrese el precio del producto: ");
+        decimal precio; // Declaración fuera del while
+        while (!decimal.TryParse(Console.ReadLine(), out precio))
+        {
+            Console.Write("Precio inválido. Intente nuevamente: ");
+        }
+        producto.Precio = precio;
 
-        Console.Write("Ingrese el género del libro: ");
-        libro.Genero = Console.ReadLine();
+        Console.Write("Ingrese el stock disponible: ");
+        int stock; // Declaración fuera del while
+        while (!int.TryParse(Console.ReadLine(), out stock))
+        {
+            Console.Write("Stock inválido. Intente nuevamente: ");
+        }
+        producto.Stock = stock;
 
-        Console.Write("Ingrese el ISBN del libro: ");
-        libro.Isbn = Console.ReadLine();
-
-        return libro;
+        return producto;
     }
+
 
     static void InitComponent()
     {
         menu = new Menu();
-        menu.Opciones.Add(new Item(1, "Agregar"));
-        menu.Opciones.Add(new Item(2, "Eliminar"));
-        menu.Opciones.Add(new Item(3, "Modificar"));
-        menu.Opciones.Add(new Item(4, "Listar"));
+        menu.Opciones.Add(new Item(1, "Agregar Producto"));       // ✅ Nuevo
+        menu.Opciones.Add(new Item(2, "Modificar Producto"));
+        menu.Opciones.Add(new Item(3, "Eliminar Producto"));
+        menu.Opciones.Add(new Item(4, "Buscar Producto por ID"));
+        menu.Opciones.Add(new Item(5, "Listar Productos"));
         menu.Opciones.Add(new Item(0, "Salir"));
 
-        listaDeLibros = new List<Libro>
-        {
-            new Libro(1, "Kamasutra", "Vatsyayana, Mallanaga", "Educativo", "9783868200355")
-        };
-    }
-
-    static int GenerarNuevoId()
-    {
-        if (listaDeLibros.Count == 0)
-            return 1;
-        else
-            return listaDeLibros[^1].Id + 1;
+        listaDeProductos = new List<Producto>(); // Asumimos que usás listaDeProductos ahora
     }
 }

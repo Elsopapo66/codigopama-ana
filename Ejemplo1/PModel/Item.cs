@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ejemplo1.PModel
+namespace SistemaAlmacen.PModel
 {
     public class Item
     {

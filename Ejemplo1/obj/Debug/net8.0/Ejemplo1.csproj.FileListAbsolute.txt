@@ -84,3 +84,4 @@ C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\refin
 C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
 C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
 C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.sourcelink.json
