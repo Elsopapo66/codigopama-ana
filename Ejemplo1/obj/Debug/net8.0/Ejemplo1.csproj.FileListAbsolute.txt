@@ -1,0 +1,86 @@
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+C:\Users\morag\source\repos\Ejemplo1\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+D:\Escritorio\2025\1\.net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.sourcelink.json
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+D:\Escritorio\2025\1\programacion .net\Lunes\Ejemplo2\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.sourcelink.json
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+D:\Escritorio\proyecto\net-proyecto-eva-1\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+C:\Users\hopu_\Desktop\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+C:\Users\jesus\Downloads\net-proyecto-eva-1-main\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
